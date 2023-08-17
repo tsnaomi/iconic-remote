@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Iconic';
+  font-family: 'Iconic-Prenom';
   src:  url('../fonts/Iconic-Prenom.eot?v25ufn');
   src:  url('../fonts/Iconic-Prenom.eot?v25ufn#iefix') format('embedded-opentype'),
     url('../fonts/Iconic-Prenom.woff2?v25ufn') format('woff2'),
@@ -14,7 +14,7 @@
 .iconic-prenom,
 .iconic {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Iconic' !important;
+  font-family: 'Iconic-Prenom' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
