@@ -30,7 +30,7 @@ Experiment links:
 
 - Affixes (s21): [https://tsnaomi.net/iconic-remote/s21](https://tsnaomi.net/iconic-remote/s21)
 
-The current version is **[v.3]**.
+The current version is **[v.4]**.
 :::
 
 ## Setting up the experiments for offline usage
