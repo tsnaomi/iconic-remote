@@ -27,10 +27,9 @@ include-after-body:
 Experiment links:
 
 - Modifiers (m20): [https://tsnaomi.net/iconic-remote/m20](https://tsnaomi.net/iconic-remote/m20)
-
 - Affixes (s21): [https://tsnaomi.net/iconic-remote/s21](https://tsnaomi.net/iconic-remote/s21)
 
-The current version is **[v.4]**.
+Current version: <span style="margin-left:2px;font-size:0.9rem" class="badge bg-primary">[v.4]</span>
 :::
 
 ## Setting up the experiments for offline usage
@@ -144,4 +143,25 @@ Use the [Jayson app](https://jayson.app/) to view downloaded results. Each parti
     
 - Affix orders:
   - Replication paper (**s21**): [Saldana, Oseki, & Culbertson (2021)](https://doi.org/10.1016/j.jml.2020.104204)
+
+## Changelog
+
+**[v.4]**
+
+- Fix postnominal font caching <span style="margin-left:5px" class="badge rounded-pill bg-success">s21</span>
+
+
+**[v.3]**
+
+- Improve UI & responsiveness
+- Replace blank-line design with blocks in fill-in-the-blank & production trials
+- Remove the ability to input extra characters in production trials
+- Stimuli: Replace the cute white cat with a cute gray cat <span style="margin-left:5px" class="badge rounded-pill bg-success">s21</span>
+- Stimuli: Enlarge the tabletop objects <span style="margin-left:5px" class="badge rounded-pill bg-success">m20</span>
+
+**[v.0--v.2]**
+
+- Pilot & debug experiment designs
+- Prototype offline functionality via service workers
+
 
