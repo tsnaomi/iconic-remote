@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Iconic';
+  src:  url('../fonts/Iconic-Prenom.eot?v25ufn');
+  src:  url('../fonts/Iconic-Prenom.eot?v25ufn#iefix') format('embedded-opentype'),
+    url('../fonts/Iconic-Prenom.woff2?v25ufn') format('woff2'),
+    url('../fonts/Iconic-Prenom.ttf?v25ufn') format('truetype'),
+    url('../fonts/Iconic-Prenom.woff?v25ufn') format('woff'),
+    url('../fonts/Iconic-Prenom.svg?v25ufn#Iconic-Prenom') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.iconic-prenom,
+.iconic {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Iconic' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* enable ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* better font rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

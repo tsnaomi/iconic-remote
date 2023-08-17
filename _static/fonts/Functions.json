@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "name": "Functions",
+    "lastOpened": 0,
+    "created": 1691421998344
+  },
+  "iconSets": [
+    {
+      "selection": [
+        {
+          "order": 2,
+          "id": 2,
+          "name": "backspace",
+          "prevSize": 32,
+          "code": 98,
+          "tempChar": ""
+        },
+        {
+          "order": 3,
+          "id": 1,
+          "name": "download",
+          "prevSize": 32,
+          "code": 100,
+          "tempChar": ""
+        },
+        {
+          "order": 4,
+          "id": 0,
+          "name": "spacebar",
+          "prevSize": 32,
+          "code": 32,
+          "tempChar": ""
+        }
+      ],
+      "id": 0,
+      "metadata": {
+        "name": "Untitled Set",
+        "importSize": {
+          "width": 48,
+          "height": 48
+        }
+      },
+      "height": 1024,
+      "prevSize": 32,
+      "icons": [
+        {
+          "id": 2,
+          "paths": [
+            "M384 810.667q-23.467 0-42.667-12.267t-33.067-31.467l-180.267-254.933 180.267-254.933q13.867-19.2 33.067-31.467t42.667-12.267h448q26.4 0 45.2 18.8t18.8 45.2v469.333q0 26.4-18.8 45.2t-45.2 18.8h-448zM832 746.667v0zM372.267 746.667h459.733v-469.333h-459.733l-164.267 234.667 164.267 234.667zM477.867 676.267l119.467-119.467 119.467 119.467 45.867-45.867-120.533-118.4 118.4-118.4-45.867-45.867-117.333 119.467-119.467-119.467-45.867 45.867 120.533 118.4-120.533 118.4 45.867 45.867z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "backspace_FILL0_wght400_GRAD0_opsz48"
+          ]
+        },
+        {
+          "id": 1,
+          "paths": [
+            "M512 690.133l-205.867-205.867 45.867-45.867 128 128v-395.733h64v395.733l128-128 45.867 45.867-205.867 205.867zM234.667 853.333q-25.6 0-44.8-19.2t-19.2-44.8v-152.533h64v152.533h554.667v-152.533h64v152.533q0 25.6-19.2 44.8t-44.8 19.2h-554.667z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "download_FILL0_wght400_GRAD0_opsz48"
+          ]
+        },
+        {
+          "id": 0,
+          "paths": [
+            "M170.667 640v-256h64v192h554.667v-192h64v256h-682.667z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "space_bar_FILL0_wght400_GRAD0_opsz48"
+          ]
+        }
+      ],
+      "invisible": false,
+      "colorThemes": []
+    }
+  ],
+  "uid": 283941,
+  "projects": [],
+  "premium": true,
+  "preferences": {
+    "showGlyphs": true,
+    "showCodes": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "function-",
+      "metadata": {
+        "fontFamily": "Functions",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "showSelector": true,
+      "showMetrics": true,
+      "showMetadata": true,
+      "showVersion": true
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "name": "icomoon",
+      "classSelector": ".icon"
+    },
+    "historySize": 50
+  },
+  "time": 1691430165172
+}

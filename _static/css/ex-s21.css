@@ -1,0 +1,155 @@
+/* font sizing ----------------------------------------- */
+
+  .iconic {
+    font-size: 3.5rem;
+  }
+
+/* instructions ---------------------------------------- */
+
+  #instructions {
+    max-width: 42.8rem;
+  }
+
+  #instructions .tada {
+    animation-name: tada;
+    -webkit-animation-name: tada;
+    animation: tada 1.25s;
+    display: inline-block;
+  }
+
+  @keyframes tada {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+    10%, 20% {
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+      margin: 0 0.3rem;
+      font-size: 1.3rem;
+    }
+    30%, 50%, 70%, 90% {
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+      margin: 0 0.3rem;
+      font-size: 1.3rem;
+    }
+    40%, 60%, 80% {
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+      margin: 0 0.3rem;
+      font-size: 1.3rem;
+    }
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+  #instructions .highlight {
+    animation: 2.5s highlight 1.5s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, #d9fffc 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+
+  @keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+
+  .highlighted {
+    background: linear-gradient(90deg, #d9fffc 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 0 0;
+  }
+
+/* explanation ----------------------------------------- */
+
+  #explanation .hotpink {
+    color: hotpink;
+  }
+
+  #explanation p .iconic {
+    font-size: 2.2rem;
+    padding: 0 0.25rem;
+  }
+
+  #explanation p.nom {
+    line-height: 2.25rem;
+  }
+
+  #explanation table {
+    margin: auto;
+  }
+
+  #explanation table img {
+    height: 14rem;
+    /*margin: 2.4rem 1.6rem 1.6rem;*/
+    margin: 2.4rem 1.6rem 1.8rem;
+    border: 1px solid var(--gray);
+  }
+
+  #explanation table .center {
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+
+  #explanation table .center .iconic,
+  #explanation table .center .def {
+    display: block;
+  }
+
+  #explanation table .sing .iconic,
+  #explanation table .sing .def {
+    float: left;
+  }
+
+  #explanation table .center .iconic {
+    font-size: 2.8rem;
+  }
+
+  #explanation table .sing .iconic {
+    padding-right: 1rem;
+  }
+
+  #explanation table .nom .iconic {
+    letter-spacing: 1.2rem;
+    margin-bottom: 1.8rem;
+  }
+
+  #explanation table .def {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+/* experiment trials ----------------------------------- */
+
+  #jspsych-selection-stimulus .iconic {
+    font-size: 4rem;
+  }
+
+  #jspsych-production-keyboard button,
+  #lexicon .iconic {
+    font-size: 2.6rem;
+  }
+
+  .jspsych-selection-btn button img {
+    width: 24rem;
+    height: 15.5rem;
+    object-fit: contain;
+  }
+
+  #jspsych-madlib-blank-line {
+    min-width: 5.25rem;
+  }
+
+  #jspsych-madlib-blank-line.jspsych-madlib-correct {
+    padding-bottom: 1.43rem;
+  }
+
+  #jspsych-production-prompt,
+  #jspsych-production-line {
+    font-size: 3.2rem;
+  }
+
+  #arrow-range {
+    padding-right: 1.1rem;
+  }

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="icon" type="image/x-icon" href="../_static/images/favicon.ico">
+    <!-- jsPsych -->
+    <link href="https://unpkg.com/jspsych@7.0.0/css/jspsych.css" rel="stylesheet" type="text/css" />
+    <!-- custom -->
+    <link rel="stylesheet" href="../_static/css/ex.css"/>
+    <link rel="stylesheet" href="../_static/css/ex-m20.css"/>
+    <link rel="stylesheet" href="../_static/css/ex-min.css"/>
+    <link rel="stylesheet" href="../_static/css/ex-s21-min.css"/>
+    <link rel="stylesheet" href="../_static/css/style.css"/>
+  </head>
+  <body class="jspsych-display-element">
+    <!-- hidden text (displayed in reading list) -->
+    <div id="hidden-version">
+      [v.3] test experiment trials; click "start experiment" to launch
+    </div>
+    <!-- launch experiment -->
+    <div class="jspsych-content-wrapper">
+      <div id="jspsych-content" class="jspsych-content launch-experiment">
+        <p class="iconic">G</p>
+        <h1>test</h1>
+        <a href="#" id="launch-experiment">start experiment</a>
+        <p id="ready"></p>
+      </div>
+    </div>
+    <!-- cache fonts & images -->
+    <div style="color:#fff;font-size:1px">
+      <span class="function">c</span>
+      <span class="iconic-postnom">G</span>
+    </div>
+    <div id="preload">
+      <img src="../_static/images/tree.svg" height="0">
+      <img src="../_static/stimuli/m20/ball.png" height="0">
+      <img src="../_static/stimuli/m20/black-ball.png" height="0">
+      <img src="../_static/stimuli/m20/black-feather.png" height="0">
+      <img src="../_static/stimuli/m20/black-mug.png" height="0">
+      <img src="../_static/stimuli/m20/feather.png" height="0">
+      <img src="../_static/stimuli/m20/mug.png" height="0">
+      <img src="../_static/stimuli/m20/red-ball.png" height="0">
+      <img src="../_static/stimuli/m20/red-feather.png" height="0">
+      <img src="../_static/stimuli/m20/red-mug.png" height="0">
+      <img src="../_static/stimuli/m20/three-ball.png" height="0">
+      <img src="../_static/stimuli/m20/three-black-ball.png" height="0">
+      <img src="../_static/stimuli/m20/three-black-feather.png" height="0">
+      <img src="../_static/stimuli/m20/three-black-mug.png" height="0">
+      <img src="../_static/stimuli/m20/three-feather.png" height="0">
+      <img src="../_static/stimuli/m20/three-mug.png" height="0">
+      <img src="../_static/stimuli/m20/three-red-ball.png" height="0">
+      <img src="../_static/stimuli/m20/three-red-feather.png" height="0">
+      <img src="../_static/stimuli/m20/three-red-mug.png" height="0">
+      <img src="../_static/stimuli/m20/two-ball.png" height="0">
+      <img src="../_static/stimuli/m20/two-black-ball.png" height="0">
+      <img src="../_static/stimuli/m20/two-black-feather.png" height="0">
+      <img src="../_static/stimuli/m20/two-black-mug.png" height="0">
+      <img src="../_static/stimuli/m20/two-feather.png" height="0">
+      <img src="../_static/stimuli/m20/two-mug.png" height="0">
+      <img src="../_static/stimuli/m20/two-red-ball.png" height="0">
+      <img src="../_static/stimuli/m20/two-red-feather.png" height="0">
+      <img src="../_static/stimuli/m20/two-red-mug.png" height="0">
+      <img src="../_static/stimuli/s21/cat.png" height="0">
+      <img src="../_static/stimuli/s21/chase_cat_pl3_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_cat_pl3_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_cat_pl_monkey_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_cat_pl_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_cat_pl_rabbit_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_cat_pl_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_cat_sg_monkey_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_cat_sg_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_cat_sg_rabbit_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_cat_sg_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_monkey_pl3_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_monkey_pl3_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_monkey_pl_cat_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_monkey_pl_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_monkey_pl_rabbit_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_monkey_pl_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_monkey_sg_cat_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_monkey_sg_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_monkey_sg_rabbit_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_monkey_sg_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_rabbit_pl3_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_rabbit_pl3_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_rabbit_pl_cat_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_rabbit_pl_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_rabbit_pl_monkey_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_rabbit_pl_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_rabbit_sg_cat_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_rabbit_sg_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/chase_rabbit_sg_monkey_pl.png" height="0">
+      <img src="../_static/stimuli/s21/chase_rabbit_sg_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/monkey.png" height="0">
+      <img src="../_static/stimuli/s21/punch_cat_pl3_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_cat_pl3_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_cat_pl_monkey_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_cat_pl_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_cat_pl_rabbit_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_cat_pl_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_cat_sg_monkey_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_cat_sg_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_cat_sg_rabbit_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_cat_sg_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_monkey_pl3_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_monkey_pl3_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_monkey_pl_cat_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_monkey_pl_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_monkey_pl_rabbit_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_monkey_pl_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_monkey_sg_cat_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_monkey_sg_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_monkey_sg_rabbit_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_monkey_sg_rabbit_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_rabbit_pl3_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_rabbit_pl3_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_rabbit_pl_cat_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_rabbit_pl_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_rabbit_pl_monkey_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_rabbit_pl_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_rabbit_sg_cat_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_rabbit_sg_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/punch_rabbit_sg_monkey_pl.png" height="0">
+      <img src="../_static/stimuli/s21/punch_rabbit_sg_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/rabbit.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_cat_pl.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_cat_pl3.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_cat_pl9.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_cat_sg.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_monkey_pl.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_monkey_pl3.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_monkey_pl9.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_monkey_sg.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_rabbit_pl.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_rabbit_pl3.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_rabbit_pl9.png" height="0">
+      <img src="../_static/stimuli/s21/sleep_rabbit_sg.png" height="0">
+    </div>
+    <!-- jsPsych -->
+    <script src="https://unpkg.com/jspsych@7.0.0"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-button-response@1.1.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-call-function@1.1.2"></script>
+    <!-- custom -->
+    <script src="../_static/js/helpers.js"></script>
+    <script src="../_static/js/selection.js"></script>
+    <script src="../_static/js/madlib.js"></script>
+    <script src="../_static/js/production.js"></script>
+    <script src="../_static/js/responsive-production.js"></script>
+    <script src="../_static/js/ex.js"></script>
+    <script src="../_static/js/test.js"></script>
+    <!-- experiment -->
+    <script>
+      var jsPsych;
+
+      // once everything has loaded...
+      window.onload = function() {
+
+        // initialize the experiment when 'launch experiment' is clicked
+        document.getElementById("launch-experiment").onclick = function() {
+
+          // track trial number
+          var N = 0;
+
+          // initialize jsPsych
+          jsPsych = initJsPsych({
+            // update trial number
+            on_trial_start: function(trial) {
+              N += 1;
+              document.getElementById("trial-n").innerHTML = N;
+            },
+            // display data at the end
+            on_finish: function() {
+              jsPsych.data.displayData();
+            }
+          });
+
+          // generate participant ID
+          var id = jsPsych.randomization.randomID(3);
+
+          // create timeline
+          var timeline = [];
+
+          // generate trials
+          var base = ex();
+          var data = test();
+
+          // block 1 - icon selection
+          timeline.push(data.block1);
+
+          // block 2 - picture selection
+          timeline.push(data.block2);
+
+          // block 3 - madlib
+          timeline.push(data.block3);
+
+          // block 4 - production (fill-in-the-blanks)
+          timeline.push(data.block4);
+
+          // block 5 – production (cursor + counter)
+          timeline.push(data.block5);
+
+          // handoff
+          timeline.push(base.handoff);
+
+          // start the experiment
+          jsPsych.run(timeline);
+
+          // add trial number div
+          var trial_n = document.createElement("div");
+          trial_n.id = "trial-n";
+          document.body.append(trial_n);
+        };
+
+        // confirm that images, scripts, and stylesheets have loaded
+        document.getElementById("ready").innerHTML = "ready!";
+      };
+    </script>
+    <!-- service worker -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('../service-worker.js');
+      }
+    </script>
+    <script src="../service-worker.js"></script>
+  </body>
+</html>

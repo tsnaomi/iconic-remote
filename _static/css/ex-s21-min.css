@@ -1,0 +1,22 @@
+@media (orientation: portrait) {
+
+  .jspsych-selection-btn button img {
+    /* unstacked */
+    max-height: 17vh;
+    /* stacked */
+    max-height: 32vh;
+  }
+
+  .demo .jspsych-selection-btn button img {
+    /* unstacked */
+    max-height: 17.25vh;
+    /* stacked */
+    max-height: 20vh;
+  }
+
+  /* squish squish */
+  .jspsych-production-key {
+    min-width: initial;
+  }
+
+}
