@@ -37,7 +37,8 @@ var s21 = (function() {
   var SUBJ_NUMS = [];
 
   // set global linger duration
-  var linger = 900;
+  // var linger = 900;
+  var linger = 600;
 
   // lexical information
   var affix_icons = ["n", "c"];
